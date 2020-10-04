@@ -3,15 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-class Module1 extends StatefulWidget {
+class Module3 extends StatefulWidget {
   @override
-  _Module1State createState() => _Module1State();
+  _Module3State createState() => _Module3State();
 }
 
-class _Module1State extends State<Module1> {
+class _Module3State extends State<Module3> {
  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
   YoutubePlayerController _controller;
   TextEditingController _idController;
@@ -24,7 +23,7 @@ class _Module1State extends State<Module1> {
   bool _isPlayerReady = false;
 
   final List<String> _ids = [
-    'sdOUQSfvbMA',
+    'Kui6pOfuxZ0',
   ];
 
   @override
@@ -124,7 +123,7 @@ class _Module1State extends State<Module1> {
             ,
             SizedBox(height: 30,),
             Center(child:Text("Attempt quiz here",style: TextStyle(fontSize: 22,fontWeight: FontWeight.w600),)),
-            Center(child:Linkify(onOpen: (link) async{await launch(link.url);},text:"https://bit.ly/3leYMz8",style: TextStyle(fontSize: 20),)),
+            Center(child:Linkify(onOpen: (link) async{await launch(link.url);},text:"https://bit.ly/2SrJ5Ic",style: TextStyle(fontSize: 20),)),
             // Padding(
             //   padding: const EdgeInsets.all(8.0),
             //   child: Column(
