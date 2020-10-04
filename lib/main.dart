@@ -1,4 +1,5 @@
 
+import 'package:cybersafety/Views/Login.dart';
 import 'package:cybersafety/Views/Menu.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new HomePage(),
+      home: new Login(),
     );
   }
 }
